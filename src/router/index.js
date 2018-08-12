@@ -6,6 +6,7 @@ import Flash from '@/views/Flash'
 import Camera from '@/views/Camera'
 import Nfc from '@/views/Nfc'
 import Localisation from '@/views/Localisation'
+import NasaSearch from '@/views/NasaSearch'
 
 Vue.use(Router);
 
@@ -35,6 +36,10 @@ export default new Router({
       path: '/localisation',
       name: 'Localisation',
       component: Localisation
+    },{
+      path: '/nasa-search',
+      name: 'NasaSearch',
+      component: NasaSearch
     }
   ]
 })

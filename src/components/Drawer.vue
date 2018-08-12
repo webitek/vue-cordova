@@ -27,6 +27,7 @@ export default {
     return {
       items: [
         { icon: 'home', text: this.$t("drawer.home"), action: '/' },
+        { icon: 'search', text: 'Nasa search', action: 'nasa-search' },
         { icon: 'vibration', text: this.$t('drawer.vibration'), action: 'vibration' },
         { icon: 'camera', text: this.$t('drawer.camera'), action: 'camera' },
         { icon: 'flash_on', text: this.$t('drawer.flash'), action: 'flash' },
